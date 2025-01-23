@@ -1,11 +1,11 @@
 import React from 'react';
+import './ServiceCard';
 
 const ServiceCard = ({ service }) => {
     return (
-        <div>
+        <div className="service-card">
             <h2>{service.title}</h2>
             <p>{service.description}</p>
-            <p>Price: ${service.price}</p>
         </div>
     );
 };
