@@ -84,7 +84,7 @@ const HomePage = () => {
                 <p>Contact us today to bring your ideas to life!</p>
                 <button className="cta-button" onClick={
                    handleClick
-                    }></button>
+                    }>Contact</button>
             </section>
         </div>
     );
